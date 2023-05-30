@@ -7,25 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED7C55602A264085000F0CF5 /* Ext+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7C555F2A264085000F0CF5 /* Ext+String.swift */; };
+		ED7C55632A264101000F0CF5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED7C55652A264101000F0CF5 /* Localizable.strings */; };
 		EDF8447B2A1A06A100C33B12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF8447A2A1A06A100C33B12 /* AppDelegate.swift */; };
 		EDF8447D2A1A06A100C33B12 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF8447C2A1A06A100C33B12 /* SceneDelegate.swift */; };
 		EDF8447F2A1A06A100C33B12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF8447E2A1A06A100C33B12 /* ViewController.swift */; };
-		EDF844822A1A06A100C33B12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF844802A1A06A100C33B12 /* Main.storyboard */; };
 		EDF844842A1A06A300C33B12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDF844832A1A06A300C33B12 /* Assets.xcassets */; };
 		EDF844872A1A06A300C33B12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF844852A1A06A300C33B12 /* LaunchScreen.storyboard */; };
 		EDF8448F2A1A076200C33B12 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = EDF8448E2A1A076200C33B12 /* .gitignore */; };
+		EDF844912A1A098800C33B12 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF844902A1A098800C33B12 /* APIManager.swift */; };
+		EDF844932A1A0B2E00C33B12 /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF844922A1A0B2E00C33B12 /* CoinModel.swift */; };
+		EDF844982A1A9F2200C33B12 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = EDF844972A1A9F2200C33B12 /* SnapKit */; };
+		EDF8449A2A1B5D7000C33B12 /* CoinCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF844992A1B5D7000C33B12 /* CoinCell.swift */; };
+		EDF8449D2A1CDD9F00C33B12 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = EDF8449C2A1CDD9F00C33B12 /* SDWebImage */; };
+		EDF844A82A20938300C33B12 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF844A72A20938300C33B12 /* DetailsViewController.swift */; };
+		EDF844AC2A248F7B00C33B12 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF844AB2A248F7B00C33B12 /* TitleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		ED7C555F2A264085000F0CF5 /* Ext+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ext+String.swift"; sourceTree = "<group>"; };
+		ED7C55642A264101000F0CF5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		ED7C55662A26411D000F0CF5 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		EDF844772A1A06A100C33B12 /* CoinApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoinApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDF8447A2A1A06A100C33B12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDF8447C2A1A06A100C33B12 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		EDF8447E2A1A06A100C33B12 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EDF844812A1A06A100C33B12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EDF844832A1A06A300C33B12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDF844862A1A06A300C33B12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDF844882A1A06A300C33B12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EDF8448E2A1A076200C33B12 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		EDF844902A1A098800C33B12 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		EDF844922A1A0B2E00C33B12 /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
+		EDF844992A1B5D7000C33B12 /* CoinCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinCell.swift; sourceTree = "<group>"; };
+		EDF844A72A20938300C33B12 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		EDF844AB2A248F7B00C33B12 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +48,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDF8449D2A1CDD9F00C33B12 /* SDWebImage in Frameworks */,
+				EDF844982A1A9F2200C33B12 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,16 +75,70 @@
 		EDF844792A1A06A100C33B12 /* CoinApp */ = {
 			isa = PBXGroup;
 			children = (
-				EDF8447A2A1A06A100C33B12 /* AppDelegate.swift */,
-				EDF8447C2A1A06A100C33B12 /* SceneDelegate.swift */,
-				EDF8447E2A1A06A100C33B12 /* ViewController.swift */,
-				EDF844802A1A06A100C33B12 /* Main.storyboard */,
-				EDF844832A1A06A300C33B12 /* Assets.xcassets */,
-				EDF844852A1A06A300C33B12 /* LaunchScreen.storyboard */,
-				EDF844882A1A06A300C33B12 /* Info.plist */,
-				EDF8448E2A1A076200C33B12 /* .gitignore */,
+				EDF844A02A1E3D7100C33B12 /* App */,
+				EDF844A12A1E3D7F00C33B12 /* Cell */,
+				EDF8449E2A1E3D1E00C33B12 /* Model */,
+				EDF844A22A1E3D8B00C33B12 /* Network */,
+				EDF8449F2A1E3D2C00C33B12 /* Resources */,
+				EDF844A32A1E3D9800C33B12 /* UI */,
 			);
 			path = CoinApp;
+			sourceTree = "<group>";
+		};
+		EDF8449E2A1E3D1E00C33B12 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EDF844922A1A0B2E00C33B12 /* CoinModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EDF8449F2A1E3D2C00C33B12 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EDF844882A1A06A300C33B12 /* Info.plist */,
+				EDF844852A1A06A300C33B12 /* LaunchScreen.storyboard */,
+				EDF844832A1A06A300C33B12 /* Assets.xcassets */,
+				EDF8448E2A1A076200C33B12 /* .gitignore */,
+				ED7C555F2A264085000F0CF5 /* Ext+String.swift */,
+				ED7C55652A264101000F0CF5 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EDF844A02A1E3D7100C33B12 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EDF8447A2A1A06A100C33B12 /* AppDelegate.swift */,
+				EDF8447C2A1A06A100C33B12 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EDF844A12A1E3D7F00C33B12 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				EDF844992A1B5D7000C33B12 /* CoinCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		EDF844A22A1E3D8B00C33B12 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				EDF844902A1A098800C33B12 /* APIManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		EDF844A32A1E3D9800C33B12 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				EDF8447E2A1A06A100C33B12 /* ViewController.swift */,
+				EDF844A72A20938300C33B12 /* DetailsViewController.swift */,
+				EDF844AB2A248F7B00C33B12 /* TitleView.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,6 +157,10 @@
 			dependencies = (
 			);
 			name = CoinApp;
+			packageProductDependencies = (
+				EDF844972A1A9F2200C33B12 /* SnapKit */,
+				EDF8449C2A1CDD9F00C33B12 /* SDWebImage */,
+			);
 			productName = CoinApp;
 			productReference = EDF844772A1A06A100C33B12 /* CoinApp.app */;
 			productType = "com.apple.product-type.application";
@@ -112,8 +187,13 @@
 			knownRegions = (
 				en,
 				Base,
+				de,
 			);
 			mainGroup = EDF8446E2A1A06A100C33B12;
+			packageReferences = (
+				EDF844962A1A9F2200C33B12 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				EDF8449B2A1CDD9F00C33B12 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = EDF844782A1A06A100C33B12 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -129,9 +209,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDF8448F2A1A076200C33B12 /* .gitignore in Resources */,
+				ED7C55632A264101000F0CF5 /* Localizable.strings in Resources */,
 				EDF844872A1A06A300C33B12 /* LaunchScreen.storyboard in Resources */,
 				EDF844842A1A06A300C33B12 /* Assets.xcassets in Resources */,
-				EDF844822A1A06A100C33B12 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,21 +222,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDF844932A1A0B2E00C33B12 /* CoinModel.swift in Sources */,
+				EDF844912A1A098800C33B12 /* APIManager.swift in Sources */,
 				EDF8447F2A1A06A100C33B12 /* ViewController.swift in Sources */,
 				EDF8447B2A1A06A100C33B12 /* AppDelegate.swift in Sources */,
+				EDF844A82A20938300C33B12 /* DetailsViewController.swift in Sources */,
+				EDF844AC2A248F7B00C33B12 /* TitleView.swift in Sources */,
+				EDF8449A2A1B5D7000C33B12 /* CoinCell.swift in Sources */,
 				EDF8447D2A1A06A100C33B12 /* SceneDelegate.swift in Sources */,
+				ED7C55602A264085000F0CF5 /* Ext+String.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EDF844802A1A06A100C33B12 /* Main.storyboard */ = {
+		ED7C55652A264101000F0CF5 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EDF844812A1A06A100C33B12 /* Base */,
+				ED7C55642A264101000F0CF5 /* en */,
+				ED7C55662A26411D000F0CF5 /* de */,
 			);
-			name = Main.storyboard;
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 		EDF844852A1A06A300C33B12 /* LaunchScreen.storyboard */ = {
@@ -174,6 +261,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -234,6 +322,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -293,10 +382,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TYV66VL2S3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CoinApp/Info.plist;
+				INFOPLIST_FILE = CoinApp/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -325,10 +413,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TYV66VL2S3;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CoinApp/Info.plist;
+				INFOPLIST_FILE = CoinApp/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -370,6 +457,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EDF844962A1A9F2200C33B12 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		EDF8449B2A1CDD9F00C33B12 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EDF844972A1A9F2200C33B12 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EDF844962A1A9F2200C33B12 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		EDF8449C2A1CDD9F00C33B12 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EDF8449B2A1CDD9F00C33B12 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EDF8446F2A1A06A100C33B12 /* Project object */;
 }
